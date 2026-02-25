@@ -5,10 +5,14 @@ import {
   ClipboardCheck,
   BookOpen,
   UserCircle2,
+  Sparkles,
+  History,
 } from "lucide-react";
 
 const navItems = [
   { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { to: "/analyzer", label: "JD Analyzer", icon: Sparkles },
+  { to: "/history", label: "History", icon: History },
   { to: "/practice", label: "Practice", icon: Code2 },
   { to: "/assessments", label: "Assessments", icon: ClipboardCheck },
   { to: "/resources", label: "Resources", icon: BookOpen },
