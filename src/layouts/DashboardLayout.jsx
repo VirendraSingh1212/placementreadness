@@ -39,7 +39,7 @@ function NavItem({ to, label, icon: Icon }) {
 export function DashboardLayout() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
-      <div className="mx-auto flex max-w-6xl flex-col md:flex-row">
+      <div className="mx-auto flex w-full flex-col md:flex-row">
         <aside className="border-b border-slate-200 bg-white/70 p-4 backdrop-blur md:min-h-screen md:w-64 md:border-b-0 md:border-r">
           <div className="flex items-center justify-between md:block">
             <div className="text-sm font-semibold tracking-tight text-slate-950">
